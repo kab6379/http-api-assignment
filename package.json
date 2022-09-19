@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "HTTP API Homework Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kab6379/http-api-assignment.git"
+  },
+  "author": "Kevin Billotti",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kab6379/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/kab6379/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
